@@ -1,5 +1,5 @@
 var someObj = {
-  j:1,
+  j: 1,
 };
 
 var newObj = someObj;
@@ -7,12 +7,12 @@ var newObj = someObj;
 someObj.j = 2;
 someObj.t = 3;
 
-console.log('1st console log', newObj);
+console.log("1st console log", newObj);
 
 someObj = {
-  n: 'yes'
+  n: "yes",
 };
 
 someObj.g = 3;
 
-console.log('2nd console log', newObj);
+console.log("2nd console log", newObj);
